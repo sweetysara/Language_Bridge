@@ -40,3 +40,4 @@ if __name__ == '__main__':
             print("Google Speech Recognition could not understand the audio")
         except sr.RequestError as e:
             print(f"Could not request results from Google Speech Recognition service; {e}")
+
