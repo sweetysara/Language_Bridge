@@ -12,7 +12,7 @@ db = client[database_name]
 collection = db[collection_name]
 
 # Data to be inserted
-user_data = {"phone_number": "70348638587", "user_id": 50}
+user_data = {"phone_number": "9495864957", "user_id": 50}
 
 # Insert the data into the collection
 result = collection.insert_one(user_data)
